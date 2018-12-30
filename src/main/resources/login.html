@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Don电影网</title>
+		<script type="text/javascript" src="js/login.js"></script>
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+	</head>
+	<body class="body">
+		<div class="login_block">
+			<div class="login_form_title">
+				<h1>Don电影网</h1>
+			</div>
+			<div>
+				<form class="login_form" action="" method="post">
+					<div class="user_name">
+						<label for="email">用户名/手机号/邮箱</label><br/>
+						<input class="input" id="email" type="text" name="uid" placeholder="请输入用户名/手机号/邮箱">
+					</div>
+					<div class="user_password">
+						<label for="password">密码</label><br />
+						<input class="input" id="password" type="password" name="pwd" placeholder="请输入6-20位密码">
+					</div>
+					<div class="login_button">
+						<button style="font-size: 20px;font-weight: 600;" 
+							    onclick="login_click()" 
+							    onmouseover="this.style.backgroundColor='dodgerblue';"
+						        onmouseout="this.style.backgroundColor='deepskyblue';" 
+						        type="button" id="login_button">登  陆</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

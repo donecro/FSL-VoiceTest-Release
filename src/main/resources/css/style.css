@@ -1,0 +1,121 @@
+.body{
+	background-image: url(../img/18102202.jpg);
+	padding: 0;
+	margin: 0;
+	background-repeat: no-repeat;
+}
+.top{
+	background-color: cadetblue;
+	height: 30px;
+	margin: 0;
+	border: 0; 
+	padding: 0;
+	text-align: left;
+}
+.login_block{
+	/* text-align: center; */
+	height: 350px;
+	width: 400px;
+	background-color: white;
+	margin:0 auto;
+	margin-top: 8%;
+	border-radius: 10px;
+	border-color: black;
+	border: 2px;
+	opacity: 0.7;
+}
+.login_form_title{
+	text-align: center;
+	padding:2px ;
+}
+.user_name{
+	margin-left: 15%;
+}
+#email{
+	height: 20px;
+	width: 85%;
+	margin: 8px 0px 8px 0px;
+}
+.user_password{
+	margin-left: 15%;
+	margin-top: 15px;
+}
+#password{
+	height: 20px;
+	width: 85%;
+	margin: 8px 0px 8px 0px;
+}
+
+#login_button{
+	margin: 30px;
+	width: 73%;
+	height: 40px;
+	margin-left: 15%;
+	background-color: darkgoldenrod;
+	border: 1px;
+	border-radius: 10px;
+}
+.title{
+	text-align: center;
+	width: 100%;
+	margin:0 auto ;
+	margin-top: 5%;
+	padding: 15px;
+	
+}
+
+#choose_movie{
+	text-align: center;
+	width: 70%;
+	background-color: black;
+	margin-left: 8%;
+}
+.movie{
+	height: 230px;
+	width: 200px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 25px;
+}
+div>img{
+	width: auto;
+	height: 200px;
+}
+.submit_area{
+	text-align: center;
+	width: 20%;
+	height: 50%;
+	float: left;
+}
+}
+.submit_button{
+	width: 25%;
+	height: auto;
+}
+.button{
+	width: 70%;
+	height: 70px;
+	border: 0px;
+	background-color: darkturquoise;
+}
+
+.input{
+	/*height: 40px;*/
+	/*line-height: 40px;*/
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid #5F9EA0;
+}
+
+.sub_btn{
+	width: 120px;
+	height: 50px;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: 600;
+	color: white;
+}
+div h5{
+	margin: 0;
+}
